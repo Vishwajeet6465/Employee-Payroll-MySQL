@@ -11,3 +11,10 @@ CREATE TABLE employee_payroll(
     PRIMARY KEY (id)
 );
 describe employee_payroll;
+
+INSERT INTO employee_payroll (name, salary, start) VALUES
+("Vishwajeet", 900000, '2024-09-24'),
+("GAuri", 600000, '2024-12-29'),
+("Rutuja", 450000, '2025-05-29');
+
+SELECT * FROM employee_payroll;
